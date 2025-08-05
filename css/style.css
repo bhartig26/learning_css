@@ -1,0 +1,60 @@
+h4{
+color: yellow;
+background: #000;
+}
+p{
+    color: rgb(251, 98, 3);
+    background: #16fc02;
+}
+pre{
+    color: #16fc02;
+    background: #000;
+}
+.t_upper{
+    text-transform: uppercase;
+    word-spacing: 30px;
+}
+.t_lower{
+    text-transform: lowercase;
+    letter-spacing: 20px;
+}
+.t_capitalize{
+    text-transform: capitalize;
+}
+.t_align{
+    text-align: center;
+}
+.t_alignr{
+    text-align: right;
+}
+.text_dec{
+    text-decoration: underline;
+}
+.text_deco{
+    text-decoration: overline;
+}
+.text_declt{
+    text-decoration: line-through;
+}
+.text_decor{
+    text-decoration: underline overline line-through;
+}
+.text_in{
+    text-indent: 50px;
+}
+.text_lh{
+    line-height: 2cap;
+}
+.text_shadow{
+    text-align: center;
+    font-size: 22px;
+    color: blue;
+    text-shadow: 2px 2px 4px red;
+}
+.text_shadow2{
+    text-align: center;
+    font-size: 22px;
+    color: red;
+    text-shadow: 2px 2px 4px black;
+}
+
