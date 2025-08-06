@@ -8,7 +8,7 @@ p{
 }
 pre{
     color: #16fc02;
-    background: #000;
+    /* background: #000; */
 }
 .t_upper{
     text-transform: uppercase;
@@ -57,4 +57,84 @@ pre{
     color: red;
     text-shadow: 2px 2px 4px black;
 }
+.b_shadow{
+    box-shadow: 2px 2px 4px red;
+    
+}
+.d_shadow{
+    filter: drop-shadow(2px 2px 4px green);
+    height: 200px;
+    width: 200px;
+}
+#id_selec{
+    color: red;
+    background: #000;
+    box-shadow: 2px 2px 4px yellow;
+}
+.tx_col{
+    color: blue;
+    
+}
+.tx_bg{
+    background: aqua;
+}
+.tx_size{
+    font-size: 30px;
+    box-shadow: 2px 2px 4px red;
+}
+.font_family1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+.font_family2{
+    font-family: monospace;
+    color: red;
+}
+.font_family3{
+    font-family: cursive;
+    color: grey;
+}
+.font_family4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: indigo;
+}
+.font_family5{
+    font-family:italic;
+    color: cornflowerblue;
+}
+.font_family6{
+    font-family: sans-serif;
+    color: darkblue;
+}
+.border_1{
+    border: 2px solid red;
+     border-radius: 20px 10px 20px 10px red;
+     
+}
+.border_2{
+    border: 2px dotted red;
+    border-color:red yellow green blue;
+}
+.border_3{
+    border: 2px dashed red;
+
+}
+.border_4{
+    border: 2px double red;
+}
+.border_5{
+    border:2px inset red
+}
+.border_6{
+    border: 2px outset red;
+}
+
+img{
+    height: 500px;
+    width: 500px;
+}
+
+
+
+
 
