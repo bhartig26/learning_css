@@ -1,140 +1,250 @@
-h4{
-color: yellow;
-background: #000;
+h4 {
+  color: yellow;
+  background: #000;
 }
-p{
-    color: rgb(251, 98, 3);
-    background: #16fc02;
+p {
+  color: rgb(251, 98, 3);
+  background: #16fc02;
 }
-pre{
-    color: #16fc02;
-    /* background: #000; */
+pre {
+  color: #16fc02;
+  background: #000;
 }
-.t_upper{
-    text-transform: uppercase;
-    word-spacing: 30px;
+.t_upper {
+  text-transform: uppercase;
+  word-spacing: 30px;
 }
-.t_lower{
-    text-transform: lowercase;
-    letter-spacing: 20px;
+.t_lower {
+  text-transform: lowercase;
+  letter-spacing: 20px;
 }
-.t_capitalize{
-    text-transform: capitalize;
+.t_capitalize {
+  text-transform: capitalize;
 }
-.t_align{
-    text-align: center;
+.t_align {
+  text-align: center;
 }
-.t_alignr{
-    text-align: right;
+.t_alignr {
+  text-align: right;
 }
-.text_dec{
-    text-decoration: underline;
+.text_dec {
+  text-decoration: underline;
 }
-.text_deco{
-    text-decoration: overline;
+.text_deco {
+  text-decoration: overline;
 }
-.text_declt{
-    text-decoration: line-through;
+.text_declt {
+  text-decoration: line-through;
 }
-.text_decor{
-    text-decoration: underline overline line-through;
+.text_decor {
+  text-decoration: underline overline line-through;
 }
-.text_in{
-    text-indent: 50px;
+.text_in {
+  text-indent: 50px;
 }
-.text_lh{
-    line-height: 2cap;
+.text_lh {
+  line-height: 2cap;
 }
-.text_shadow{
-    text-align: center;
-    font-size: 22px;
-    color: blue;
-    text-shadow: 2px 2px 4px red;
+.text_shadow {
+  text-align: center;
+  font-size: 22px;
+  color: blue;
+  text-shadow: 2px 2px 4px red;
 }
-.text_shadow2{
-    text-align: center;
-    font-size: 22px;
-    color: red;
-    text-shadow: 2px 2px 4px black;
+.text_shadow2 {
+  text-align: center;
+  font-size: 22px;
+  color: red;
+  text-shadow: 2px 2px 4px black;
 }
-.b_shadow{
+.b_shadow {
+  box-shadow: 2px 2px 4px red;
+}
+.d_shadow {
+  filter: drop-shadow(2px 2px 4px green);
+  height: 200px;
+  width: 200px;
+}
+#id_selec {
+  color: red;
+  background: #000;
+  box-shadow: 2px 2px 4px yellow;
+}
+.tx_col {
+  color: blue;
+}
+.tx_bg {
+  background: aqua;
+}
+.tx_size {
+  font-size: 30px;
+  box-shadow: 2px 2px 4px red;
+}
+.font_family1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+}
+.font_family2 {
+  font-family: monospace;
+  color: red;
+}
+.font_family3 {
+  font-family: cursive;
+  color: grey;
+}
+.font_family4 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: indigo;
+}
+.font_family5 {
+  font-family: italic;
+  color: cornflowerblue;
+}
+.font_family6 {
+  font-family: sans-serif;
+  color: darkblue;
+}
+.border_1 {
+  border: 2px solid red;
+  border-radius: 20px 10px 20px 10px red;
+}
+.border_2 {
+  border: 2px dotted red;
+  border-color: red yellow green blue;
+}
+.border_3 {
+  border: 2px dashed red;
+}
+.border_4 {
+  border: 2px double red;
+}
+.border_5 {
+  border: 2px inset red;
+}
+.border_6 {
+  border: 2px outset red;
+}
+
+img {
+  height: 500px;
+  width: 500px;
+}
+.box1 {
+  
+  background:blanchedalmond;
+  padding: 20px;
+  margin: 20px;
+  border: 2px dashed black;
+}
+.box2 {
+  
+  background:aqua;
+  padding: 20px 40px 20px 40px;
+  margin: 20px 40px 20px 40px;
+  border: 2px inset black;
+}
+.box3 {
+  color: white;
+  background: brown;
+  padding: 100px 75px 50px 25px;
+  margin: 80px 60px 40px 20px;
+    border: 2px double black;
+}
+.img1{
     box-shadow: 2px 2px 4px red;
-    
+    /* height: 50px;
+    width: 50px; */
+    padding: 20px;
+    margin: 20px;
+    border: 2px outset black;
+    border-radius: 20px 10px 20px 10px;
 }
-.d_shadow{
-    filter: drop-shadow(2px 2px 4px green);
-    height: 200px;
-    width: 200px;
-}
-#id_selec{
-    color: red;
-    background: #000;
+.img2{
     box-shadow: 2px 2px 4px yellow;
+    /* height: 50px;
+    width: 50px; */
+    padding: 50px;
+    margin: 50px;
+    border: 2px dotted black;
+    border-radius: 50px 10px 50px 10px;
 }
-.tx_col{
-    color: blue;
-    
+.img3{
+ /* height: 50px;
+ width: 50px; */
+ padding: 40px;
+ margin: 30px;
+    box-shadow: 2px 2px 4px green;
+    border: 2px solid black;
+    border-radius: 30px 50px 70px 90px;
 }
-.tx_bg{
-    background: aqua;
+.lineargradiet{
+    background: linear-gradient( red, yellow, green, blue);
 }
-.tx_size{
-    font-size: 30px;
-    box-shadow: 2px 2px 4px red;
+.gradient{
+    font-size: 100px;
+    text-align: center;
+    padding: 20px ;
 }
-.font_family1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+.lineargradiet1{
+    background: linear-gradient(to right, red, yellow, green, blue);
 }
-.font_family2{
-    font-family: monospace;
-    color: red;
+.gradient1{
+    font-size: 100px;
+    text-align: center;
+    padding: 20px ;
 }
-.font_family3{
-    font-family: cursive;
-    color: grey;
+.radialgradient{
+    background: radial-gradient( circle, red, yellow, green, blue);
+}  
+.gradient2{
+    font-size: 100px;
+    text-align: center;
+    padding: 20px ;
 }
-.font_family4{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: indigo;
+.radialgradient1{
+    background: radial-gradient(circle, yellow,orange,red, green, blue);
 }
-.font_family5{
-    font-family:italic;
-    color: cornflowerblue;
+.gradient3{
+    font-size: 100px;
+    text-align: center;
+    padding: 20px ;
+} 
+div ul li{
+    padding: 20px;
+    margin: 20px;
 }
-.font_family6{
-    font-family: sans-serif;
-    color: darkblue;
+.conicgradient{
+    background: conic-gradient( from 90deg,red, yellow, green, blue);
 }
-.border_1{
-    border: 2px solid red;
-     border-radius: 20px 10px 20px 10px red;
-     
+.gradient4{
+    font-size: 10px;
+    text-align: center;
+    padding: 20px ;
 }
-.border_2{
-    border: 2px dotted red;
-    border-color:red yellow green blue;
+.conicgradient1{
+    background: conic-gradient(from 180deg, red, yellow, green, blue);
 }
-.border_3{
-    border: 2px dashed red;
-
+.gradient5{
+    font-size: 10px;
+    text-align: center;
+    padding: 20px ;
 }
-.border_4{
-    border: 2px double red;
+.conicgradient2{
+    background: conic-gradient(from 270deg, red, yellow, green, blue);
+}   
+.gradient6{
+    font-size: 10px;
+    text-align: center;
+    padding: 20px ;
 }
-.border_5{
-    border:2px inset red
+.background1{
+    background-image: url(/images/images/product-11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
-.border_6{
-    border: 2px outset red;
+.background2{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
 }
-
-img{
-    height: 500px;
-    width: 500px;
-}
-
-
-
-
-
