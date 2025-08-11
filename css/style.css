@@ -125,10 +125,10 @@ pre {
   border: 2px outset red;
 }
 
-img {
+/* img {
   height: 500px;
   width: 500px;
-}
+} */
 /* .box1 {
   
   background:blanchedalmond;
@@ -350,7 +350,94 @@ bottom: 10px;
   position: absolute;
   top: 245px;
   left: 245px;
-  border:black 2px solid;
+  /* border:black 2px solid; */
   /* border-radius: 10px; */
   padding: 2px;
+}
+/* .flex-items{
+  background-color: #16fc02;
+  margin: 10px;
+  width: 200px;
+  height: 150px;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  list-style: none;
+}
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-direction: row-reverse;
+} */
+.flex-items{
+  background-color:white;
+  padding: 20px;
+  margin: 20px;
+  /* width: 250px;
+  height: 200px; */
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  list-style: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* border: 2px solid black; */
+}
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  /* flex-direction: row-reverse; */
+}
+img{
+  width: 250px;
+  height: 200px;
+  padding: 20px;
+  margin: 20px;
+}
+img:hover{
+  border: 2px solid red;
+  box-shadow: 2px 2px 4px red;
+  border-radius: 10px;
+}
+h1{
+  /* text-align: center; */
+  color: blue;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px red;
+  /* background-color: yellow; */
+
+}
+input:focus{
+  color: white;
+  background-color: black;
+}
+a:visited{
+  color: purple;
+}
+h2{
+  color: green;
+}
+h2:active{
+  color: red;
+  font-size: 30px;
+}
+p::first-letter{
+  color: red;
+  font-size: 30px;
+}
+p::first-line{
+  color: blue;
+  font-size: 20px;
+}
+p::selection{
+  background-color: yellow;
+  color:purple;
+}
+::selection{
+  background-color: black;
+  color: white;
 }
