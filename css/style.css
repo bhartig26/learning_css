@@ -2,10 +2,10 @@ h4 {
   color: yellow;
   background: #000;
 }
-p {
+/* p {
   color: rgb(251, 98, 3);
   background: #16fc02;
-}
+} */
 pre {
   color: #16fc02;
   background: #000;
@@ -129,7 +129,7 @@ img {
   height: 500px;
   width: 500px;
 }
-.box1 {
+/* .box1 {
   
   background:blanchedalmond;
   padding: 20px;
@@ -149,7 +149,7 @@ img {
   padding: 100px 75px 50px 25px;
   margin: 80px 60px 40px 20px;
     border: 2px double black;
-}
+} */
 .img1{
     box-shadow: 2px 2px 4px red;
     /* height: 50px;
@@ -247,4 +247,110 @@ div ul li{
     padding: 20px;
     margin: 20px;
     text-align: center;
+}
+.box{
+  height:100px;
+  width: 200px;
+    background: aqua;
+    color:black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px red;
+    text-align: center;
+    border: black 2px solid ;
+
+}
+.box1{
+  position: static;
+  }
+  .box2{
+  position: relative;
+  top: 20px;
+  left: 200px;
+  }
+  .box3{
+  position: absolute;
+  top: 20px;
+  left: 400px;
+  } 
+.box4{
+  position: sticky;
+  top: 20px;
+  left: 600px;
+  }
+.box5{
+  position: fixed;  
+  bottom: 10px;
+  right: 80px;
+}
+.hall{
+  position: relative;
+  
+  width: 500px;
+  height: 300px;
+  background: aqua;
+    border: 2px solid black;
+    border-radius: 20px ;
+} 
+.tv{
+  height: 20px;
+  width: 50px;
+  background: black;
+  position: absolute;
+  top: 20px;
+  left: 225px;
+  color: white;
+  border: white 2px solid;
+  border-radius: 20px;
+  padding: 2px;
+  box-shadow: 2px 2px 4px red;
+}
+.sofa{
+  height: 100px;
+  width: 200px;
+  background:pink;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  border: white 2px solid;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.fridge{
+  height: 100px;
+  width: 80px;
+  background: grey;
+  position: absolute;
+bottom: 10px;
+  right: 20px;
+  top: 180px;
+  border: white 2px solid;
+  border-radius: 15px;
+  padding: 2px;
+  box-shadow: 2px 2px 4px black;
+
+}
+.table{
+  height: 50px;
+  width: 100px;
+  background: brown;
+  position: absolute;
+  top: 225px;
+  left: 2px;
+  border: white 2px solid;
+  border-radius: 10px;
+  padding: 2px;
+}
+.door{
+  height: 50px;
+  width: 50px;
+  background:white;
+  position: absolute;
+  top: 245px;
+  left: 245px;
+  border:black 2px solid;
+  /* border-radius: 10px; */
+  padding: 2px;
 }
