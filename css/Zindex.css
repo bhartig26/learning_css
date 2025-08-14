@@ -1,0 +1,39 @@
+.container{
+    position: relative;
+    margin: 50px;
+}
+div{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    border: 2px solid black;
+   
+}
+.red{
+background-color: red;
+left: 100px;
+z-index: 2;
+}
+.green{
+    background-color: green;
+    left:50px;
+    z-index: 9;
+}
+.blue{
+    background-color: blue;
+    left:20px;
+    z-index:5;
+}
+.green:hover{
+    z-index: 11;
+}
+.red:hover{
+    z-index:12;
+}
+.blue:hover{
+    z-index: 10;
+}
