@@ -283,6 +283,8 @@ div ul li {
   bottom: 10px;
   right: 80px;
 }
+/* POSITION EXAMPLE */
+
 .hall {
   position: relative;
 
@@ -352,6 +354,9 @@ div ul li {
   /* border-radius: 10px; */
   padding: 2px;
 }
+
+/* FLEX EXAMPLE */
+
 /* .flex-items{
   background-color: #16fc02;
   margin: 10px;
@@ -390,12 +395,12 @@ div ul li {
   flex-direction: row;
   /* flex-direction: row-reverse; */
 }
-img {
+/* img {
   width: 250px;
   height: 200px;
   /* padding: 20px;
   margin: 20px; */
-}
+} */
 img:hover {
   border: 2px solid red;
   box-shadow: 2px 2px 4px red;
@@ -438,6 +443,7 @@ p::selection {
   background-color: black;
   color: white;
 }
+/* TRANSMISSION EXAMPLE */
 .mission {
   background-color: white;
   padding: 20px;
@@ -494,7 +500,8 @@ p::selection {
 .ani11:hover {
   transform: scale(2) rotate(45deg) translate(50px, 50px) skew(10deg, 10deg);
 }
-div{
+/* SIMPLE ANIMATION */
+/* div {
   height: 100px;
   width: 100px;
   background-color: red;
@@ -503,21 +510,139 @@ div{
   animation-duration: 10s;
   animation-iteration-count: 2;
   /* animation-delay: 2s; */
-  animation-direction: alternate;
+  /* animation-direction: alternate;
 }
 @keyframes firstanimation {
   0%{background-color:yellow;left: 300px;top: 0px;}
   25%{background-color:green;left: 300px;top: 300px;}
   50%{background-color:blue;left: 0px;top: 300px;}
   100%{ background-color:red;left: 0px;top: 0px;}
+  } */ */
+/* @keyframes firstanimation {
+  0% {
+    background-image: url(/images/images/app-store.png);
+    left: 300px;
+    top: 0px;
   }
-  @keyframes firstanimation {
-    0%{background-image: url(/images/images/app-store.png);left:300px;top:0px}
-    25%{background-image: url(/images/images/product-1.jpg);left:300px;top:300px}
-    50%{background-image: url(/images/images/buy-1.jpg);left:0px;top:300px}
-    100%{background-image: url(/images/images/buy-3.jpg);left:0px;top:0px}
+  25% {
+    background-image: url(/images/images/product-1.jpg);
+    left: 300px;
+    top: 300px;
+  }
+  50% {
+    background-image: url(/images/images/buy-1.jpg);
+    left: 0px;
+    top: 300px;
+  }
+  100% {
+    background-image: url(/images/images/buy-3.jpg);
+    left: 0px;
+    top: 0px;
+  } */
 
-  }
+  /* Nth-CHILD */
+}
+ul {
+  width: 200px;
+  padding: 10px;
+  list-style-type: none;
+  font-weight: 800;
+}
+li {
+  padding: 10px;
+  border: 2px solid black;
+  margin-bottom: 15px;
+  box-shadow: 2px 2px 2px red;
+  border-radius: 8px;
+}
+li:nth-child(odd){
+  background-color: yellow;
+}
+li:nth-child(even){
+  background-color: orange;
+  color: white;
+}
+/* li:nth-child(5){
+  background-color:blue;
+} */
+ /* li:first-child{
+background-color: aquamarine;
+ }
+ li:last-child{
+  background-color:palevioletred;
+ } */
+
+ /* FANCY TEXT */
+
+
+ .text-container{
+display: flex;
+justify-content: center;
+letter-spacing: 20px;
+font-weight: 900;
+font-size: 70px;
+perspective: 100px;
+
+ }
+ .text-container>b{
+  height: 80px;
+  box-shadow: 0px 2px 3px red ;
+  background: linear-gradient(to right,yellow,orange,red,pink);
+  background-clip: text;
+  color: transparent;
+  transform-origin: bottom;
+  transform: rotateX(-85deg);
+  animation: getup  10s infinite;
+ }
+ .text-container b:nth-child(1)
+ {
+  animation-delay :0s;
+ }
+  .text-container b:nth-child(2)
+ {
+  animation-delay :0.15s;
+ }
+ .text-container b:nth-child(3)
+ {
+  animation-delay :0.30s;
+ }
+ .text-container b:nth-child(4)
+ {
+  animation-delay :0.45s;
+ }
+ .text-container b:nth-child(5)
+ {
+  animation-delay :0.60s;
+ }
+ .text-container b:nth-child(6)
+ {
+  animation-delay :0.75s;
+ }
+ @keyframes getup {
+  from{transform:rotateX(-85deg);}
+  40%,70%{transform: rotateX(0);}
+  to{transform: rotateX(-85deg);}
   
+ }
+
+ /*  */
+
+ .photo{
+  animation: swing 1.5s ease-in-out infinite alternate;
+  transform-origin: top center;
+  position: relative;
+ }
+ .swing img{
+  width: 300px;
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px red;
+
+ }
+ @keyframes swing {
+  from{transform: rotateX(7deg);}
+  to{transform: rotateX(-7deg);}
+  
+ }
+
 
 
